@@ -53,9 +53,6 @@ const count4 = (array) => {
 };
 count4(myArray);
 
-// 4.5 Shift
-// Create a function that shift the elements of an array.
-
 // 4.6 Diff
 // Create a function that calculates the largest deviation in an array (the deviation is the absolute value of the difference of two elements)
 const count6 = (array) => {

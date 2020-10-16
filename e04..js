@@ -32,7 +32,8 @@ const count3 = (array) => {
         min = array[i];
       }
     }
-    return console.log(`Count3 | Minimum of ${array} : ${min}`);
+    //console.log(`Count3 | Minimum of ${array} : ${min}`);
+    return min;
   } else console.error("Error : Empty array !");
 };
 count3(myArray);
@@ -46,17 +47,21 @@ const count4 = (array) => {
         max = array[i];
       }
     }
-    return console.log(`Count3 | Max of ${array} : ${max}`);
+    //console.log(`Count4 | Max of ${array} : ${max}`);
+    return max;
   } else console.error("Error : Empty array !");
 };
 count4(myArray);
-// 4.5 Max
-// Create a function that calculate the maximum of the elements of an array.
 
-// 4.6 Shift
+// 4.5 Shift
 // Create a function that shift the elements of an array.
 
-// 4.7 Diff
+// 4.6 Diff
 // Create a function that calculates the largest deviation in an array (the deviation is the absolute value of the difference of two elements)
-
+const count6 = (array) => {
+  let deviation = count4(array) - count3(array);
+  console.log(`Count6 | Largest deviation : ${deviation}`);
+  return deviation;
+};
+count6(myArray);
 // 0X #soon
